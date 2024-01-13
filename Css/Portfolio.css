@@ -1,0 +1,490 @@
+:root {
+    --First-Color:#1FC68E ;
+    --Secound-Color:#838C8C;
+    --Third-Color:#555555;
+    --Fourth-Color:#F8F9FA;
+    --Fifth-Color:red;
+    --Sixth-Color: black;
+    --Margin-After:5px;
+}
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* Start Header */
+header {
+    background-size: 100% 100%;
+    background-image: url(../img/intro-bg.jpg);
+}
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-toggler,
+.navbar .navbar-toggler .icon {
+    color: var(--Secound-Color);
+}
+
+.navbar .navbar-nav .nav-link.active ,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover,
+.Main-btn {
+    color: var(--First-Color);
+}
+
+.navbar .navbar-toggler{
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.Layer,
+.icon-2,
+.Down-List {
+    z-index: 1;
+}
+
+.Layer .Header-Text h1::after {
+    content: "|";
+    animation: Youssef 7s alternate infinite;
+    -webkit-animation: Youssef 7s alternate infinite;
+}
+
+@keyframes Youssef {
+    0% {
+      content: "Free";
+    }
+    2% {
+      content: "Fre|";
+    }
+    4% {
+      content: "Fr";
+    }
+    6% {
+      content: "F";
+    }
+    8% {
+      content: "|";
+    }
+    10% {
+      content: "";
+    }
+    12% {
+      content: "S|";
+    }
+    14% {
+      content: "Se";
+    }
+    16% {
+      content: "Sen|";
+    }
+    18% {
+      content: "Seni";
+    }
+    20% {
+      content: "Senio|";
+    }
+    22% {
+      content: "Senior";
+    }
+    24% {
+      content: "Senior |";
+    }
+    26% {
+      content: "Senior F";
+    }
+    28% {
+      content: "Senior Fr|";
+    }
+    30% {
+      content: "Senior Fro";
+    }
+    32% {
+      content: "Senior Fron|";
+    }
+    34% {
+      content: "Senior Front";
+    }
+  
+    36% {
+      content: "Senior Front |";
+    }
+    38% {
+      content: "Senior Front e";
+    }
+    40% {
+      content: "Senior Front en|";
+    }
+    42% {
+      content: "Senior Front end";
+    }
+    44% {
+      content: "Senior Front|";
+    }
+    46% {
+      content: "Senior Fron";
+    }
+    48% {
+      content: "Senior Fro|";
+    }
+    50% {
+      content: "Senior Fr";
+    }
+    52% {
+      content: "Senior F|";
+    }
+    54% {
+      content: "Senior ";
+    }
+    56% {
+      content: "Senior|";
+    }
+    58% {
+      content: "";
+    }
+    60% {
+      content: "Y|";
+    }
+    62% {
+      content: "Yo";
+    }
+    64% {
+      content: "You|";
+    }
+    66% {
+      content: "Youss";
+    }
+    68% {
+      content: "Yousse|";
+    }
+    70% {
+      content: "Youssef";
+    }
+    72% {
+      content: "Youssef |";
+    }
+    74% {
+      content: "Youssef K";
+    }
+    76% {
+      content: "Youssef kh|";
+    }
+    78% {
+      content: "Youssef kha";
+    }
+    80% {
+      content: "Youssef khal|";
+    }
+    82% {
+      content: "Youssef khale";
+    }
+    84% {
+      content: "Youssef Khaled|";
+    }
+    86% {
+      content: "Youssef khale";
+    }
+    88% {
+      content: "Youssef khal|";
+    }
+    90% {
+      content: "Youssef kha";
+    }
+    92% {
+      content: "Youssef kh|";
+    }
+    94% {
+      content: "Youssef ";
+    }
+    96% {
+      content: "Youss|";
+    }
+    98% {
+      content: "Yous";
+    }
+    100% {
+      content: "You|";
+    }
+}
+
+.Main-btn {
+    border-color: var(--First-Color);
+}
+
+.Main-btn:hover {
+    background-color: var(--First-Color);
+}
+
+.icon-2 {
+    background-color: var(--Third-Color);
+}
+
+.Icon-3,
+.Down-List{
+    bottom: 10px;
+}
+/* End Header */
+/* Start Section-1 */
+.Text-1 h2::before {
+    content: "ABOUT ME";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+    -moz-transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+    -o-transform: translate(-50% ,-50%);
+    font-size: 80px;
+    opacity: 0.25;
+    font-weight: 700;
+}
+
+.Text-1 h2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    top: 100%;
+    height: 4px;
+    background-color: var(--First-Color);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    opacity: 0.5;
+}
+
+.Text-2 span,
+.color {
+    color: var(--First-Color);
+}
+
+.Text-2 p {
+    color: var(--Secound-Color);
+}
+
+.Info ul li span {
+    font-size: 20px;
+}
+
+.info-1 span {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--Third-Color);
+}
+
+.info-1 p {
+    color: var(--Third-Color);
+}
+
+@media (max-width: 576px) {
+    .Text-1 h2::before {
+        display: none;
+    }
+}
+/* End Section-1 */
+/* Start Section-2 */
+.Section-2 {
+    background-color: var(--Fourth-Color);
+}
+.Section-2 h2::before {
+    content: "SERVICES";
+}
+
+.Services-icon {
+    width: 15%;
+    color: var(--First-Color);
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+.Services-icon:hover {
+    color: var(--Fifth-Color);
+}
+
+.Services-Text p {
+    color: var(--Third-Color);
+}
+/* End Section-2 */
+/* Start Section-3 */
+.Section-3 h2::before {
+    content: "SUMMAERY";
+}   
+
+.Resume-Text p:nth-child(1) {
+    width: fit-content;
+    background-color: var(--First-Color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Resume-Text span {
+    color: var(--Fifth-Color);
+}
+
+.progress-bar {
+    background-color: var(--First-Color);
+}
+
+.Btn-3 {
+    border-color: var(--Secound-Color);
+    color: var(--Secound-Color);
+}
+
+.Btn-3:hover {
+    background-color: var(--Third-Color);
+}
+/* End Section-3 */
+/* Start Section-4 */
+.Section-4 ,
+.nav-pills .nav-link.active{
+    background-color: var(--Fourth-Color);
+}
+.Section-4 h2::before {
+    content: "PORTFOLIO";
+} 
+
+.Section-4 h2::after {
+    content: "";
+    margin-top: var(--Margin-After);
+}  
+.Projects {
+  overflow: hidden;
+}
+.Layer{
+  display: none;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: var(--Third-Color);
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.nav-pills .nav-item .nav-link.active ,
+.nav-pills .nav-item .nav-link:focus,
+.nav-pills .nav-item .nav-link:hover {
+  color: var(--First-Color);
+  border-bottom: 1px solid var(--First-Color);
+}
+
+.Projects:hover .Layer {
+  display: block;
+}
+
+.Projects:hover .Block img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.Block img {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+/* End Section-4 */ 
+/* Start Section-5 */
+.Section-5  h2::before {
+    content: "TESTIMONIAL";
+}
+
+.Section-5  h2::after {
+    margin-top: var(--Margin-After);
+}
+
+.Client {
+    background-color: var(--Fourth-Color);
+}
+
+.Clint-Rate {
+    color: #FFC107;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #555 ;
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: #20C997;
+}
+
+
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #20C997 ;
+}
+/* End Section-5 */
+/* Start Section-6 */
+.Section-6 {
+    background-color: var(--Fourth-Color);
+}
+.Section-6 h2::before {
+    content: "CONTACT";
+}
+
+.Section-6 h2::after {
+    margin-top: var(--Margin-After);
+}
+
+.Phone-icon {
+    color: var(--First-Color);
+}
+
+.Contact-Info p ,
+.Phone p {
+    color: var(--Third-Color);
+}
+/* End Section-6 */
+/* Start footer */
+.Foot-2 a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.Foot-1 p a {
+    color: var(--First-Color);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.Foot-1 p a:hover {
+    color: var(--Sixth-Color);
+}
+
+.Foot-2 a:hover {
+    color: var(--First-Color);
+}
+
+.Foot-1 p,
+.Foot-2 a {
+    color: var(--Third-Color);
+}
+/* End footer */
